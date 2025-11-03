@@ -51,4 +51,4 @@
 
 ## Demo
 ![Kết quả với ảnh 2.png](./demo/result/2.png)
-![Kết quả với ảnh 4.png](./demo/result/4.png)
+![Kết quả với ảnh 9.png](./demo/result/9.png)
