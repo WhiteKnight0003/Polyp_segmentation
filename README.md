@@ -10,6 +10,11 @@
 │   └── Kvasir-SEG/
 │       ├── images/       (Chứa ảnh gốc)
 │       └── masks/        (Chứa ảnh mặt nạ)
+|   demo/                 (Chứa ảnh để test và kết quả sau khi test)
+|   └── result
+|   └── test              (kết quả sau khi test)
+|       └── Mask          (Chứa ảnh mark để test)
+|       └── Origin        (Chứa ảnh gốc để test)
 ├── trained_models/
 │   └── best_unet.pt      (Checkpoint của model tốt nhất)
 ├── dataset.py            (Định nghĩa custom Dataset)
@@ -45,5 +50,5 @@
 - `./demo/test`
 
 ## Demo
-![Kết quả với ảnh 2.png](E./demo/result/2.png)
-![Kết quả với ảnh 4.png](E./demo/result/4.png)
+![Kết quả với ảnh 2.png](./demo/result/2.png)
+![Kết quả với ảnh 4.png](./demo/result/4.png)
